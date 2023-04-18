@@ -1,0 +1,24 @@
+.phonebookForm
+{
+    width: 400px;
+    padding: 20px;
+    border: solid 1px gray;
+}
+
+.phonebookForm button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.333);
+    cursor: pointer;
+}
+
+.phonebookFormItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.phonebookFormItem input{
+    margin-bottom: 10px;
+}

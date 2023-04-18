@@ -1,0 +1,21 @@
+.contacts
+{
+    margin: 0;
+    padding: 0;
+}
+
+.contactsItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+.contactsItem button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.333);
+    cursor: pointer;
+}
