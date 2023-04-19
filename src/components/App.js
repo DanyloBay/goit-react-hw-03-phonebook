@@ -5,8 +5,7 @@ import shortid from 'shortid';
 import { ContactForm } from './ContactForm';
 import { ContactList } from './ContactList';
 import { Filter } from './Filter';
-
-const DATA_KEY = 'DATA_CONTACTS';
+import { DATA_KEY } from './Constants';
 
 class App extends Component {
   state = {
